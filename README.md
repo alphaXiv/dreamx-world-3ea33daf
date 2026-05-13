@@ -22,15 +22,15 @@ DreamX Team
 The model is trained with a scalable data engine on Unreal Engine data, gameplay footage, and real-world videos, combined with camera estimation and strict data filtering to learn realistic dynamics and interactions. It follows a progressive training pipeline: learning fine-grained action control first, then open-ended event response, and using Reinforcement Learning to improve action following, interaction consistency, and visual fidelity. Finally, through forcing and distillation, DreamX-World achieves efficient inference, making interactive generation practical at scale.
 
 ## :fire: News
-- 2026.05.11: We release [DreamX-World-5B-Cam](inference_README.md) and inference codes.
+- 2026.05.11: We open-sourced [DreamX-World-5B-Cam](inference_README.md) and inference codes.
 - 2026.04.10: DreamX-World is released!
 
-## :calendar: Plan
-- [x] Open-source DreamX-World-5B-Cam model.
-- [ ] Open-source DreamX-World-14B-Cam model.
-- [ ] Open-source Autoregressive model.
-- [ ] Open-source model that supports Audio generation.
-- [ ] Open-source Real-Time, Interactive, Long-horizon DreamX-World model.
+## :calendar: Open-source Plan
+- [x] DreamX-World-5B-Cam Model.
+- [ ] DreamX-World-14B-Cam Model.
+- [ ] Autoregressive Video Generation Model.
+- [ ] Audio-Video Joint Generation Model.
+- [ ] Real-Time, Interactive, Long-horizon DreamX-World Model.
 - [ ] Release Technical Report.
 
 ## 🚀 Quick Start
