@@ -38,8 +38,20 @@ CUDA_DEVICES="0,1,2,3,4,5,6,7"   # Specify GPUs, e.g., "4,5,6,7". Empty = use al
 sh inference_dreamx_5b.sh
 ```
 
-#### Uncurated Videos: 
-| | | | |
-| -- | -- | -- | -- |
+#### Uncurated Videos (5s, 24 FPS): 
+<table align="center">
+  <tr>
+    <td><video src="https://github.com/user-attachments/assets/9e7362d9-c6ae-465e-8595-fa9c62245f07" width="100%" autoplay muted loop playsinline></video></td>
+    <td><video src="https://github.com/user-attachments/assets/d6dc8a95-0933-49de-b7ca-4a1284e6ed58" width="100%" autoplay muted loop playsinline></video></td>
+    <td><video src="https://github.com/user-attachments/assets/bd5301ac-b91d-4898-9da8-8a70e4c69304" width="100%" autoplay muted loop playsinline></video></td>
+    <td><video src="https://github.com/user-attachments/assets/d35bfdbb-cad7-4627-87d6-a113f82003c7" width="100%" autoplay muted loop playsinline></video></td>
+  </tr>
+  <tr>
+    <td><video src="https://github.com/user-attachments/assets/916c1b06-7799-482e-80f5-948144ee5877" width="100%" autoplay muted loop playsinline></video></td>
+    <td><video src="https://github.com/user-attachments/assets/89d0ab96-3b19-4896-98db-737087a35007" width="100%" autoplay muted loop playsinline></video></td>
+    <td><video src="https://github.com/user-attachments/assets/05df0050-7c7e-4338-bd27-22b487bc9479" width="100%" autoplay muted loop playsinline></video></td>
+    <td><video src="https://github.com/user-attachments/assets/a07ca638-94de-4dd9-9757-ef1ce6f887be" width="100%" autoplay muted loop playsinline></video></td>
+  </tr>
+</table>
 
-you can reproduce the results by running the model with the provided json file: `configs/dreamx/eval.json`.
+You can reproduce the results by running the model with the provided json file: `configs/dreamx/eval.json`.
