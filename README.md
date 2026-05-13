@@ -53,7 +53,7 @@ Please check out [inference_README.md](inference_README.md) for detailed instruc
 ## 📍 Checkpoints
 | Model | 🤗 Download Link | Details | Instrutions |
 | -- | -- | -- | -- |
-| DreamX-World-5B-Cam | | w PRoPE Camera Control | [inference_README.md](inference_README.md) |
+| DreamX-World-5B-Cam | [Huggingface](https://huggingface.co/GD-ML/DreamX-World-5B-Cam) | w PRoPE Camera Control | [inference_README.md](inference_README.md) |
 
 
 ## 🎬 Video Demo
