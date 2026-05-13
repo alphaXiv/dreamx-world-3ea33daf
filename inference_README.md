@@ -41,16 +41,16 @@ sh inference_dreamx_5b.sh
 #### Uncurated Videos (5s, 24 FPS): 
 <table align="center">
   <tr>
-    <td><video src="https://github.com/user-attachments/assets/9e7362d9-c6ae-465e-8595-fa9c62245f07" width="100%" autoplay muted loop playsinline></video></td>
-    <td><video src="https://github.com/user-attachments/assets/d6dc8a95-0933-49de-b7ca-4a1284e6ed58" width="100%" autoplay muted loop playsinline></video></td>
-    <td><video src="https://github.com/user-attachments/assets/bd5301ac-b91d-4898-9da8-8a70e4c69304" width="100%" autoplay muted loop playsinline></video></td>
-    <td><video src="https://github.com/user-attachments/assets/d35bfdbb-cad7-4627-87d6-a113f82003c7" width="100%" autoplay muted loop playsinline></video></td>
+    <td><video src="https://github.com/user-attachments/assets/77958ada-e840-46e8-8609-d0ef548a18ed" width="100%" autoplay muted loop playsinline></video></td>
+    <td><video src="https://github.com/user-attachments/assets/03cd69bb-9c3b-4336-ae73-d9e8eb7ad68b" width="100%" autoplay muted loop playsinline></video></td>
+    <td><video src="https://github.com/user-attachments/assets/47c80b08-151c-4efd-9590-91197e29a863" width="100%" autoplay muted loop playsinline></video></td>
+    <td><video src="https://github.com/user-attachments/assets/49a40e5a-7200-404c-8fa6-d31cffee4ab2" width="100%" autoplay muted loop playsinline></video></td>
   </tr>
   <tr>
-    <td><video src="https://github.com/user-attachments/assets/916c1b06-7799-482e-80f5-948144ee5877" width="100%" autoplay muted loop playsinline></video></td>
-    <td><video src="https://github.com/user-attachments/assets/89d0ab96-3b19-4896-98db-737087a35007" width="100%" autoplay muted loop playsinline></video></td>
-    <td><video src="https://github.com/user-attachments/assets/05df0050-7c7e-4338-bd27-22b487bc9479" width="100%" autoplay muted loop playsinline></video></td>
-    <td><video src="https://github.com/user-attachments/assets/a07ca638-94de-4dd9-9757-ef1ce6f887be" width="100%" autoplay muted loop playsinline></video></td>
+    <td><video src="https://github.com/user-attachments/assets/ef35c650-043f-4050-a6ab-ad7101e92a8f" width="100%" autoplay muted loop playsinline></video></td>
+    <td><video src="https://github.com/user-attachments/assets/525ad5d6-f24b-4556-b12b-1e02735860df" width="100%" autoplay muted loop playsinline></video></td>
+    <td><video src="https://github.com/user-attachments/assets/89a946ff-f06b-4a49-ba3e-262a850b08e7" width="100%" autoplay muted loop playsinline></video></td>
+    <td><video src="https://github.com/user-attachments/assets/8fbd9b81-9579-4fae-9447-d1e05c65319a" width="100%" autoplay muted loop playsinline></video></td>
   </tr>
 </table>
 
