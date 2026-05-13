@@ -25,7 +25,7 @@ The model is trained with a scalable data engine on Unreal Engine data, gameplay
 - 2026.05.11: We open-sourced [DreamX-World-5B-Cam](inference_README.md) and inference codes.
 - 2026.04.10: DreamX-World is released!
 
-## :calendar: Open-source Plan
+## :calendar: Plan
 - [x] DreamX-World-5B-Cam Model.
 - [ ] DreamX-World-14B-Cam Model.
 - [ ] Autoregressive Video Generation Model.
