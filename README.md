@@ -26,7 +26,7 @@ The model is trained with a scalable data engine on Unreal Engine data, gameplay
 - 2026.04.10: DreamX-World is released!
 
 ## :calendar: Plan
-- [x] DreamX-World-5B-Cam Model.
+- :heavy_check_mark: DreamX-World-5B-Cam Model.
 - [ ] DreamX-World-14B-Cam Model.
 - [ ] Autoregressive Video Generation Model.
 - [ ] Audio-Video Joint Generation Model.
