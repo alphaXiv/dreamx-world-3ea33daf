@@ -31,7 +31,10 @@ CUDA_DEVICES="0,1,2,3,4,5,6,7"   # Specify GPUs, e.g., "4,5,6,7". Empty = use al
 ## Run inference
 
 ### 1. DreamX-World-5B-Cam
-```
+- Generates 5-second videos at 24 FPS (121 frames) or 16 FPS (81 frames).
+- Supports up to 7.5s (in 16FPS) video generation.
+
+```bash
 sh inference_dreamx_5b.sh
 ```
 
