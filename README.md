@@ -11,6 +11,7 @@ DreamX Team
 
 [![Page](https://img.shields.io/badge/%F0%9F%8C%90%20Project%20Page-Demo-00bfff)](https://amap-ml.github.io/DreamX_World)
 [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-yellow)](https://huggingface.co/GD-ML/DreamX-World-5B-Cam)
+[![ModelScope](https://img.shields.io/badge/ModelScope-Model-624aff?logo=modelscope)](https://modelscope.cn/models/GD-ML/DreamX-World-5B-Cam)
 ![Tech Report](https://img.shields.io/static/v1?label=Tech%20Report&message=Coming%20Soon&color=red&logo=arxiv)
 [![License](https://img.shields.io/badge/License-Apache--2.0-green)](LICENSE.txt)
 
