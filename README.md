@@ -157,10 +157,20 @@ DreamX-World supports **prompt-driven world events** that dynamically change the
   </tr>
 </table>
 
+## 💬 WeChat Group
+
+Join our WeChat group for discussion:
+
+<div align="center">
+  <img src="assets/wechat_group_qrcode.png" width="300" alt="WeChat Group QR Code">
+</div>
+
+**Contact**: 📧 ally.sl@alibaba-inc.com | hongxi.wjh@alibaba-inc.com
+
 ## 📜 License
 
 This project is licensed under Apache 2.0. See [LICENSE](LICENSE.txt) for details.
 
 ## ✨ Acknowledgement
 
-We thank the Wan Team for open-sourcing their code and models.
+We thank the [Wan Team](https://huggingface.co/Wan-AI) for open-sourcing their code and models.
