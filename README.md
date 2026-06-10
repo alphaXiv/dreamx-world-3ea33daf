@@ -69,6 +69,41 @@ Please check out [inference_README.md](inference_README.md) for detailed instruc
   <p><a href="https://www.youtube.com/watch?v=lO_VXzpQehc">Watch on YouTube</a></p>
 </div>
 
+> **Note:** The demo videos are intentionally compressed to ensure smooth playback, which may result in a slight loss of visual quality.
+
+### ⏳ Generate Long-Horizon Worlds
+
+DreamX-World supports long-horizon autoregressive generation with precise camera control. Progressive training on long rollouts mitigates identity, background, style, and color drift, enabling coherent world exploration over hundreds of frames.
+
+<!-- Replace LONG_VIDEO_DEMO_*_URL with the uploaded video URLs. -->
+<table align="center">
+  <tr>
+    <td width="50%"><video src="https://github.com/user-attachments/assets/0ca58dc1-1e36-401b-88ce-f9a98c0d3dcb" width="100%" autoplay muted loop playsinline></video></td>
+    <td width="50%"><video src="https://github.com/user-attachments/assets/2e0ae05c-2cdd-4706-ad7e-9204f24a74e8" width="100%" autoplay muted loop playsinline></video></td>
+  </tr>
+  <tr>
+    <td width="50%"><video src="https://github.com/user-attachments/assets/4a65b053-4f94-49de-aca7-dfff93ca0153" width="100%" autoplay muted loop playsinline></video></td>
+    <td width="50%"><video src="https://github.com/user-attachments/assets/be94617e-6fbb-4967-8050-29d252a12077" width="100%" autoplay muted loop playsinline></video></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><video src="https://github.com/user-attachments/assets/9e8f53c6-1b18-4fc4-b85e-0ecbbcc7e0c8" width="50%" autoplay muted loop playsinline></video></td>
+  </tr>
+</table>
+
+### 🧠 Remember and Revisit
+
+DreamX-World uses geometry-guided memory retrieval to recover non-local visual evidence from earlier observations. This improves scene persistence when the camera revisits a previously explored region, preserving its layout, object identities, and local appearance.
+
+<!-- Replace MEMORY_DEMO_*_URL with the uploaded composite video URLs. -->
+<table align="center">
+  <tr>
+    <td><video src="https://github.com/user-attachments/assets/32c16be2-ced2-4dad-a16f-b548db457861" width="100%" autoplay muted loop playsinline></video></td>
+  </tr>
+  <tr>
+    <td><video src="https://github.com/user-attachments/assets/5dc42034-75ae-4e66-bce8-17897b88e752" width="100%" autoplay muted loop playsinline></video></td>
+  </tr>
+</table>
+
 ### 🌍 Navigate and Explore Realistic Worlds
 
 DreamX-World enables high-fidelity, controllable exploration across diverse realistic environments, including indoor, urban, natural, and architectural scenes.
@@ -153,10 +188,18 @@ DreamX-World supports **prompt-driven world events** that dynamically change the
   </tr>
 </table>
 
+## 💬 WeChat Group
+
+Join our WeChat group for discussion:
+
+<div align="center">
+  <img src="assets/wechat_group_qrcode.png" width="300" alt="WeChat Group QR Code">
+</div>
+
 ## 📜 License
 
 This project is licensed under Apache 2.0. See [LICENSE](LICENSE.txt) for details.
 
 ## ✨ Acknowledgement
 
-We thank the Wan Team for open-sourcing their code and models.
+We thank the [Wan Team](https://huggingface.co/Wan-AI) for open-sourcing their code and models.
