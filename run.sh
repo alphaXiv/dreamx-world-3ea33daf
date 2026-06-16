@@ -73,7 +73,7 @@ python inference_ar_forcing.py \
   --checkpoint_path ./DreamX-World-5B \
   --data_path "$ART/eval_min.json" \
   --output_folder "$ART/outputs_ar" \
-  --num_output_frames 21 \
+  --num_output_frames 63 \
   --fps 16 --seed 42 --color_correction_strength 1.0 --chunk_relative
 
 echo "===== Analyzing output ====="
