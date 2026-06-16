@@ -71,7 +71,7 @@ python inference_ar_forcing.py \
   --data_path "$ART/eval_min.json" \
   --output_folder "$ART/outputs_ar" \
   --num_output_frames 21 \
-  --fps 16 --seed 42 --color_correction_strength 1.0 --chunk_relative
+  --fps 16 --seed 42 --color_correction_strength 1.0
 
 echo "===== Analyzing output ====="
 python - <<'PY'
@@ -116,7 +116,7 @@ lines = [
     "",
     f"- Output video: `{metrics['video']}`",
     f"- Frames: {T}  Resolution: {W}x{H}  FPS: 16  (~{T/16:.1f}s)",
-    f"- Denoising steps: 4 (distilled), num_frame_per_block=3, chunk-relative camera",
+    f"- Denoising steps: 4 (distilled), num_frame_per_block=3, global relative-pose camera",
     f"- Mean frame-to-frame diff (motion proxy, 0-255): {metrics['mean_frame_diff']}",
     f"- Frame-diff range: [{metrics['min_frame_diff']}, {metrics['max_frame_diff']}]",
     f"- Brightness drift first->last: {metrics['brightness_drift_abs']} (lower = less color drift)",
