@@ -81,14 +81,11 @@ DreamX-World supports long-horizon autoregressive generation with precise camera
 <table align="center">
   <tr>
     <td width="50%"><video src="https://github.com/user-attachments/assets/0ca58dc1-1e36-401b-88ce-f9a98c0d3dcb" width="100%" autoplay muted loop playsinline></video></td>
-    <td width="50%"><video src="https://github.com/user-attachments/assets/2e0ae05c-2cdd-4706-ad7e-9204f24a74e8" width="100%" autoplay muted loop playsinline></video></td>
+    <td width="50%"><video src="https://github.com/user-attachments/assets/9e8f53c6-1b18-4fc4-b85e-0ecbbcc7e0c8" width="100%" autoplay muted loop playsinline></video></td>
   </tr>
   <tr>
     <td width="50%"><video src="https://github.com/user-attachments/assets/4a65b053-4f94-49de-aca7-dfff93ca0153" width="100%" autoplay muted loop playsinline></video></td>
     <td width="50%"><video src="https://github.com/user-attachments/assets/be94617e-6fbb-4967-8050-29d252a12077" width="100%" autoplay muted loop playsinline></video></td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center"><video src="https://github.com/user-attachments/assets/9e8f53c6-1b18-4fc4-b85e-0ecbbcc7e0c8" width="50%" autoplay muted loop playsinline></video></td>
   </tr>
 </table>
 
@@ -99,10 +96,19 @@ DreamX-World uses geometry-guided memory retrieval to recover non-local visual e
 <!-- Replace MEMORY_DEMO_*_URL with the uploaded composite video URLs. -->
 <table align="center">
   <tr>
+    <td><video src="https://github.com/user-attachments/assets/e41099a2-1b18-4ec7-9aee-89885461cc04" width="100%" autoplay muted loop playsinline></video></td>
+  </tr>
+  <tr>
     <td><video src="https://github.com/user-attachments/assets/32c16be2-ced2-4dad-a16f-b548db457861" width="100%" autoplay muted loop playsinline></video></td>
   </tr>
   <tr>
     <td><video src="https://github.com/user-attachments/assets/5dc42034-75ae-4e66-bce8-17897b88e752" width="100%" autoplay muted loop playsinline></video></td>
+  </tr>
+  <tr>
+    <td><video src="https://github.com/user-attachments/assets/bafe86ab-247b-4b93-9c58-e5e436a13a07" width="100%" autoplay muted loop playsinline></video></td>
+  </tr>
+  <tr>
+    <td><video src="https://github.com/user-attachments/assets/8e4f7d54-bc0c-4204-b234-c13bcb42c0e1" width="100%" autoplay muted loop playsinline></video></td>
   </tr>
 </table>
 
@@ -205,3 +211,4 @@ This project is licensed under Apache 2.0. See [LICENSE](LICENSE.txt) for detail
 ## ✨ Acknowledgement
 
 We thank the [Wan Team](https://huggingface.co/Wan-AI) for open-sourcing their code and models.
+
