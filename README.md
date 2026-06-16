@@ -56,7 +56,7 @@ Please check out [inference_README.md](inference_README.md) for detailed instruc
 | Model | Download Link | Details | Instrutions |
 | -- | -- | -- | -- |
 | DreamX-World-5B-Cam | [Huggingface](https://huggingface.co/GD-ML/DreamX-World-5B-Cam),  [ModelScope](https://modelscope.cn/models/GD-ML/DreamX-World-5B-Cam) | Bidrectional, Supports 5s Video Generation | [inference_README.md](inference_README.md) |
-| DreamX-World-5B | | Autoregressive, Supports Long-horizon Video Generation | [inference_README.md](inference_README.md) |
+| DreamX-World-5B | Coming Soon | Autoregressive, Supports Long-horizon Video Generation | [inference_README.md](inference_README.md) |
 
 <!-- ## Inference Speed -->
 <!-- ### DreamX-World-5B-Cam
