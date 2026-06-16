@@ -10,7 +10,7 @@ DreamX Team
 <div align="center">
 
 [![Page](https://img.shields.io/badge/%F0%9F%8C%90%20Project%20Page-Demo-00bfff)](https://amap-ml.github.io/DreamX_World)
-[![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-yellow)](https://huggingface.co/GD-ML/DreamX-World-5B-Cam)
+[![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-yellow)](https://huggingface.co/GD-ML/DreamX-World-5B)
 [![ModelScope](https://img.shields.io/badge/ModelScope-Model-624aff?logo=modelscope)](https://modelscope.cn/models/GD-ML/DreamX-World-5B-Cam)
 [![Tech Report](https://img.shields.io/badge/arXiv-2606.16993-b31b1b.svg)](https://arxiv.org/abs/2606.16993)
 [![License](https://img.shields.io/badge/License-Apache--2.0-green)](LICENSE.txt)
@@ -56,7 +56,7 @@ Please check out [inference_README.md](inference_README.md) for detailed instruc
 | Model | Download Link | Details | Instrutions |
 | -- | -- | -- | -- |
 | DreamX-World-5B-Cam | [Huggingface](https://huggingface.co/GD-ML/DreamX-World-5B-Cam),  [ModelScope](https://modelscope.cn/models/GD-ML/DreamX-World-5B-Cam) | Bidrectional, Supports 5s Video Generation | [inference_README.md](inference_README.md) |
-| DreamX-World-5B | Uploading | Autoregressive, Supports Long-horizon Video Generation | [inference_README.md](inference_README.md) |
+| DreamX-World-5B | [Huggingface](https://huggingface.co/GD-ML/DreamX-World-5B) | Autoregressive, Supports Long-horizon Video Generation | [inference_README.md](inference_README.md) |
 
 <!-- ## Inference Speed -->
 <!-- ### DreamX-World-5B-Cam
@@ -201,7 +201,7 @@ DreamX-World supports **prompt-driven world events** that dynamically change the
 Join our WeChat group for discussion:
 
 <div align="center">
-  <img src="assets/wechat_group_qrcode2.png" width="300" alt="WeChat Group QR Code">
+  <img src="assets/wechat_group_qrcode.png" width="300" alt="WeChat Group QR Code">
 </div>
 
 ## 📜 License
@@ -211,4 +211,3 @@ This project is licensed under Apache 2.0. See [LICENSE](LICENSE.txt) for detail
 ## ✨ Acknowledgement
 
 We thank the [Wan Team](https://huggingface.co/Wan-AI) for open-sourcing their code and models.
-

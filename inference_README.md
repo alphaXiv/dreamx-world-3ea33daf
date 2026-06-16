@@ -30,18 +30,18 @@ CUDA_DEVICES="0,1,2,3,4,5,6,7"   # Specify GPUs, e.g., "4,5,6,7". Empty = use al
 
 ### Camera Action Commands
 
-| Action | Description |
-|--------|-------------|
-| `w` | Move forward |
-| `s` | Move backward |
+| Action | Camera Control |
+|--------|----------------|
+| `w` | Push in |
+| `s` | Pull out |
 | `a` | Move left |
 | `d` | Move right |
-| `j` | Tilt down |
-| `k` | Tilt up |
+| `i` | Tilt up |
+| `k` | Tilt down |
+| `j` | Pan left |
 | `l` | Pan right |
-| `h` | Pan left |
 
-Actions can be composed (e.g., `wj` = move forward + tilt down, `dj` = move right + tilt down).
+Actions can be composed (e.g., `wj` = push in + pan left, `dj` = move right + pan left).
 
 
 ### Step1: Preparing Input Json File
