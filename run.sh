@@ -22,6 +22,9 @@ pip install -q torch==2.5.1 torchvision==0.20.1
 grep -viE 'flash_attn|xfuser|triton|tensorboard|gradio' requirements.txt > /tmp/reqs.txt
 pip install -q -r /tmp/reqs.txt
 pip install -q "huggingface_hub[hf_transfer]"
+# torchvision 0.20.1's write_video assigns the string "NONE" to frame.pict_type,
+# which PyAV >=14 rejects (TypeError: an integer is required). Pin av<14.
+pip install -q "av<14"
 
 # Cross-attention (WanCrossAttention) calls flash_attention() directly, so a
 # real flash-attn build is required. Install the matching prebuilt wheel for the
