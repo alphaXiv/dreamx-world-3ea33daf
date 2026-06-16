@@ -59,8 +59,8 @@ cat > "$ART/eval_min.json" <<'JSON'
   {
     "image_path": "./demo/36_Tilt_Down.png",
     "caption": "Style: Photorealistic. A breathtaking coastal landscape captured from a high vantage point, showcasing rugged orange-brown cliffs framing a vibrant turquoise ocean. In the foreground, dry grasses and rocky outcrops lead the eye down into a dramatic cove where powerful waves crash onto the shore, creating frothy white surf. Beyond, the ocean stretches to the horizon under a clear blue sky.",
-    "action_seq": ["w", "wj"],
-    "action_speed_list": [4, 6]
+    "action_seq": ["l", "j"],
+    "action_speed_list": [5, 5]
   }
 ]
 JSON
