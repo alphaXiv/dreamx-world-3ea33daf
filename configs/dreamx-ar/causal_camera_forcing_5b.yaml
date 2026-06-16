@@ -6,9 +6,13 @@ model_kwargs:
 
 denoising_step_list:
 - 1000
+- 875
 - 750
+- 625
 - 500
+- 375
 - 250
+- 125
 warp_denoising_step: true
 num_train_timestep: 1000
 timestep_shift: 5.0
