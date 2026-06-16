@@ -1,3 +1,21 @@
+## Implementation notes
+
+Minimal single-GPU reproduction of the released autoregressive DreamX-World-5B model. Entrypoint:
+
+```bash
+bash run.sh
+```
+
+What to expect: 1x H100 80GB, about 9 minutes end to end (most of it weight download), roughly $0.50. It downloads the Wan2.2-TI2V-5B text encoder, VAE and tokenizer plus the 21GB AR checkpoint, then generates one camera-controlled image-to-video clip (81 frames, 5.1s, 16fps, 1280x704) in 4 denoising steps.
+
+Takeaways:
+- Verdict: reproduced. The few-step autoregressive, camera-controlled generator runs and produces a coherent moving clip; per-chunk latency is a uniform 0.72s.
+- Set `eprope: true` in `configs/dreamx-ar/causal_camera_forcing_5b.yaml`: the released checkpoint is the E-PRoPE variant (`cam_self_attn` dim 768), so the default `eprope: false` fails with a state dict size mismatch.
+- Use `--checkpoint_path ./DreamX-World-5B` and no `--base_checkpoint_path`; the released weights are a safetensors directory.
+- Pin `av<14`: torchvision 0.20.1 `write_video` assigns a string `pict_type` that PyAV 14 rejects.
+
+---
+
 <div align="center">
   <img src="assets/dreamx-world_teaser_fig.jpg">
 
