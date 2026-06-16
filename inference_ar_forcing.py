@@ -32,7 +32,7 @@ from einops import rearrange
 from omegaconf import OmegaConf
 from PIL import Image
 from torchvision import transforms
-from torchvision.io import write_video
+import imageio.v3 as iio
 import torch.nn.functional as F
 
 from pipeline.pipeline_causal_camera import CausalCameraInferencePipeline
@@ -346,7 +346,7 @@ def main():
             color_correction_strength=args.color_correction_strength,
         )
 
-        write_video(output_path, video[0], fps=args.fps)
+        iio.imwrite(output_path, video[0].numpy().astype('uint8'), fps=args.fps, codec='libx264')
         print(f"    Saved: {output_path}")
 
     print("Done.")
