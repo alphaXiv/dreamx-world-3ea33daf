@@ -71,7 +71,7 @@ python inference_ar_forcing.py \
   --data_path "$ART/eval_min.json" \
   --output_folder "$ART/outputs_ar" \
   --num_output_frames 21 \
-  --fps 16 --seed 42 --color_correction_strength 1.0 --chunk_relative
+  --fps 16 --seed 42 --color_correction_strength 0.3 --chunk_relative
 
 echo "===== Analyzing output ====="
 python - <<'PY'
